@@ -1,7 +1,7 @@
 # Use a JDK image to build the app
 FROM maven:3.9.4-eclipse-temurin-17 AS build
 WORKDIR /app
-COPY . .
+COPY src/main/java/com/examly/springapp .
 RUN mvn clean package -DskipTests
 
 # Use a lightweight JRE image to run the app
