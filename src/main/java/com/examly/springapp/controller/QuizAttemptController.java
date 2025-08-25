@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/quiz-attempt")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://online-quiz-platform-one.vercel.app")
 public class QuizAttemptController {
 
     private final QuizAttemptService quizAttemptService;

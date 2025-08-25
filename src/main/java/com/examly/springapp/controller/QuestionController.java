@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/question")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://online-quiz-platform-one.vercel.app")
 public class QuestionController {
 
     private final QuestionService questionService;

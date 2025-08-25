@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/quiz-retake")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://online-quiz-platform-one.vercel.app")
 public class QuizRetakeRequestController {
 
     private final QuizRetakeRequestService retakeRequestService;
